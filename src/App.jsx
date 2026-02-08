@@ -6,6 +6,10 @@ const Portfolio = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  const openResume = () => {
+  window.open("/subash_CV (1).pdf", "_blank");
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -59,7 +63,7 @@ const Portfolio = () => {
               className="text-2xl font-black tracking-tight"
             >
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-                Subash Thakur
+                Subhash Thakur
               </span>
             </button>
 
@@ -84,6 +88,7 @@ const Portfolio = () => {
               <a
                 href="#"
                 className="px-4 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-lg font-medium hover:shadow-lg hover:shadow-emerald-500/50 transition-all"
+                onClick={openResume}
               >
                 <Download className="w-4 h-4 inline mr-2" />
                 Resume
@@ -121,7 +126,7 @@ const Portfolio = () => {
                 href="#"
                 className="block w-full px-4 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white text-center rounded-lg font-medium"
               >
-                <Download className="w-4 h-4 inline mr-2" />
+                <Download className="w-4 h-4 inline mr-2"/>
                 Resume
               </a>
             </div>
@@ -141,7 +146,7 @@ const Portfolio = () => {
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black mb-6 leading-tight">
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">
-                Subash Thakur
+                Subhash Thakur
               </span>
             </h1>
 
