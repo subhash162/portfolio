@@ -161,7 +161,7 @@ const Portfolio = () => {
 
             <div className="flex items-center justify-center gap-2 text-slate-400 mb-10">
               <MapPin className="w-5 h-5" />
-              <span>Jhapa, Nepal</span>
+              <span>gauriganj-3 Jhapa, Nepal</span>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
