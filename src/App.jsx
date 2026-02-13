@@ -612,7 +612,7 @@ const Portfolio = () => {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-slate-400 text-center md:text-left">
-              © 2024 Subash Thakur. Built with React + Vite + Tailwind CSS
+              © 2024 Subhash Thakur. Built with React + Vite + Tailwind CSS
             </p>
             <div className="flex gap-4">
               <a
